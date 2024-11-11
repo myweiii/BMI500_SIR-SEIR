@@ -1,7 +1,8 @@
 # BMI500_SIR-SEIR
 ## BMI500 Homework Week 11 Report
 ### Selected Topic: HW1 - SIR and SEIR Model Implementation for Pandemic Spread
-Disclaimer: No generative AI (in any form) has been used to complete this homework.
+### Disclaimer
+No generative AI (in any form) has been used to complete this homework.
 
 ## Name and Contact
 **Name:** Mingyang Wei <br>
@@ -18,7 +19,7 @@ The plot is shown as follows.
 From the figure in section B, we can see that the infection number peak comes around the 35th day. For the factors contributing to this peak, I think the initial number of susceptible individuals, transmission rate, and recovery rate may affect the peak. With a higher initial number of susceptible individuals, a higher transmission rate or a lower recovery rate may make the peak earlier and higher.
 
 #### 2. **Basic reproductive number $R_0$:** Calculate and interpret the basic reproductive number $R_0 = \frac{\beta}{\gamma}$. Explain how $R_0$ influences the overall dynamics of the pandemic, particularly in terms of infection spread and control.
-$ R_0 = \frac{\beta}{\gamma} =  \frac{0.0003}{0.1} = 0.003$. The basic reproductive number reflects the average number of new infections caused by a single individual in a fully susceptible population. A higher $R_0$ means each infected individual can pass the infection to more people. The infection spread means $R_0$ is more than 1, indicating one individual can pass the infection to many people. The infection control means $R_0$ is less than 1, indicating each infected individual is less likely to infect others.
+$R_0 = \frac{\beta}{\gamma} =  \frac{0.0003}{0.1} = 0.003$. The basic reproductive number reflects the average number of new infections caused by a single individual in a fully susceptible population. A higher $R_0$ means each infected individual can pass the infection to more people. The infection spread means $R_0$ is more than 1, indicating one individual can pass the infection to many people. The infection control means $R_0$ is less than 1, indicating each infected individual is less likely to infect others.
 
 
 #### 3. **Pandemic dynamics:** Describe the general behavior of the $S$, $I$, and $R$ populations over time. Discuss how the interactions between these compartments represent the spread and eventual containment of the infection.
